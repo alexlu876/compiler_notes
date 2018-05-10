@@ -6,7 +6,7 @@ Source code --compiler--> executable -> images
 STEP | NAME | INPUT | OUTPUT
 :---: | --- | --- | ---
 1 | Lexer | Source Code | Token List
-2 | Syntactic Analyzer | Token List | Syntax Tree
+2 | Syntactic Analyzer | Token List | Parse Tree
 3 | Semantic Analyzer | x | x
 4 | Optimizer (Optional) | x | x
 5 | Code Generator | x | x
